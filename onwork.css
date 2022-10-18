@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.portfolio-logo {
+    font-family: Monospace;
+    font-size: 24px;
+    font-weight: 700;
+    border: 2px solid #4b6cc1;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.banner-section-bg-container {
+    background-color: #191a1d;
+    height: 100vh;
+}
+
+.banner-section-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.banner-section-description {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 24px;
+}
+
+.banner-section-image {
+    width: 180px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.person-name {
+    color: #4b6cc1;
+}
+
+.custom-button {
+    color: white;
+    background-color: #4b6cc1;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+}
+
+.about-me-section {
+    min-height: 100vh;
+    background-color: white;
+}
+
+.about-me-section-heading {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: Monospace;
+}
+
+.about-me-section-description {
+    font-size: 22px;
+    text-align: inherit;
+    text-indent: 30px;
+    font-family: cursive;
+}
+
+.my-skills-section {
+    color: white;
+    background-color: #191a1d;
+    min-height: 100vh;
+}
+
+.my-skills-section-heading {
+    font-family: Monospace;
+    font-size: 36px;
+    text-align: center;
+}
+
+.skill {
+    height: 150px;
+    /*border-bottom: 5px solid gray;*/
+    border-radius: 12px;
+    width: 150px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 10px 10px 5px #ffffff60;
+}
+
+.skill-logo {
+    width: 80px;
+    height: 80px;
+}
+
+.skill-name {
+    color: black;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.my-works-section {
+    min-height: 100vh;
+    padding-bottom: 30px;
+}
+
+.work {
+    background-color: black;
+    color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 10px 10px 5px #00000060;
+}
+
+.tech {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 0 0 15px #ffffff60;
+}
+
+.work-img {
+    width: 100%;
+    border-radius: 5px;
+    height: 60vh;
+}
+
+.my-works-title {
+    width: 100%;
+    text-align: center;
+    margin: 2vh;
+    font-family: Monospace;
+}
+
+.view-button {
+    height: 20px;
+    width: 40px;
+}
+
+.ping-me-section {
+    background-color: #191a1d;
+    height: 15vh;
+    position: relative;
+}
+
+.icon {
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #00000080;
+}
