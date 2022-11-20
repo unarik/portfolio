@@ -151,3 +151,12 @@
     border-radius: 10px;
     color: #00000080;
 }
+
+.resume {
+    background-color: transparent;
+    color: #773bed;
+    font-size: 12px;
+    border: 1px solid #773bed;
+    padding: 2px;
+    border-radius: 5px;
+}
