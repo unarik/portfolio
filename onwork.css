@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
+* {
+    scroll-behavior: smooth;
+}
+
 .portfolio-logo {
     font-family: Monospace;
     font-size: 24px;
@@ -31,6 +35,7 @@
     width: 180px;
     margin-bottom: 10px;
     border-radius: 50%;
+    border: 2px outset #4b6cc1;
 }
 
 .person-name {
@@ -111,6 +116,11 @@
     padding: 25px;
     border-radius: 12px;
     box-shadow: 10px 10px 5px #00000060;
+    height: 650px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .tech {
@@ -124,7 +134,7 @@
 .work-img {
     width: 100%;
     border-radius: 5px;
-    height: 60vh;
+    height: 400px;
 }
 
 .my-works-title {
@@ -146,10 +156,19 @@
 }
 
 .icon {
-    padding: 10px;
     background-color: #ffffff;
-    border-radius: 10px;
-    color: #00000080;
+    padding: 10px 15px;
+    border-radius: 50%;
+    color: #191a1d;
+    margin: 10px;
+    border: 2px inset gray;
+}
+
+.signature {
+    text-align: right;
+    color: white;
+    flex-grow: 1;
+    font-variant: small-caps;
 }
 
 .resume {
