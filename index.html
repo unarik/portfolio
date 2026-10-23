@@ -1,176 +1,139 @@
-<!DOCTYPE html>
-<html>
-
+<!doctype html>
+<html lang="en">
 <head>
-    <title># 0 @ me</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="onwork.css" type="text/css">  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="Surya Dasari — Python Backend Engineer building reliable backend systems, data workflows, and production automation.">
+  <title>Surya Dasari | Python Backend Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
-
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand portfolio-logo" href="#banner-section">K.</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto">
-                <a class="nav-link active text-white" href="#banner-section">
-                    Home
-                    <span class="sr-only">(current)</span>
-                </a>
-                <a class="nav-link text-white" href="#about-me-section">About me</a>
-                <a class="nav-link text-white" href="#my-skills-section">My skills</a>
-                <a class="nav-link text-white" href="#my-works-section">My works</a>
-                <a class="nav-link" href="https://s3-ap-south-1.amazonaws.com/nkb-backend-ccbp-media-static/ccbp_prod/media/resume_generated/Sri_Siva_Surya_Kiran_2022-11-07-143617.pdf">
-                    <span class="resume">Resume</span></a>
-            </div>
-        </div>
-    </nav>
-    <div id="banner-section" class="banner-section-bg-container d-flex flex-column justify-content-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-5 order-1 order-md-2">
-                    <img src="https://media-content.ccbp.in/ccbp_prod/media/profile_pic/679c4724-9957-49c5-b68e-bb954bd36c2c.jpeg" class="banner-section-image" />
-                </div>
-                <div class="col-12 col-md-7 order-2 order-md-1 d-flex flex-column justify-content-center">
-                    <h1 class="banner-section-heading mb-3">
-                        Hey, I am <span class="person-name">Kiran</span>
-                    </h1>
-                    <p class="banner-section-description mb-3">
-                        I am a Frontend Developer & Mentor.
-                    </p>
-                    <a href="#ping-me-section"><button class="custom-button">Contact Me</button></a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="about-me-section" class="about-me-section d-flex flex-column justify-content-center">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <img class="w-100" src="https://res.cloudinary.com/dnffm752p/image/upload/v1665382356/ccbp/Frontend-Developers_mrasif.webp" alt="Frontend-Developer" />
-                </div>
-                <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
-                    <h1 class="about-me-section-heading">About Me...</h1>
-                    <p class="about-me-section-description">My name is Kiran and I'm 24 years old,
-                        holding knowledge about some frontend technologies and eagerly waiting to start
-                        my career in the Software Industry as a Software Developer.
-                        I plug in my Earphones and turn caffeine into a beautiful piece of UI using
-                        HTML, CSS, JavaScript & more such Frontend technologies.</p>
-                    <p class="about-me-section-description">Speaking a little about the Miscellaneous activities I indulge myself
-                        in apart from web-development are, I love to make friends over the internet
-                        & I'm very much into music. I listen to music in my free time.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="my-skills-section" class="my-skills-section d-flex flex-column justify-content-center">
-        <div class="container">
-            <div class="row">
-                <div class="my-skills-section-heading col-12 mt-3">
-                    <h1>My skills...</h1>
-                </div>
-                <div class="skill col-10 col-sm-5 col-md-3 col-lg-2">
-                    <img class="skill-logo" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-html-5-512.png" alt="HTML-Logo" />
-                    <p class="skill-name">HTML</p>
-                </div>
-                <div class="skill col-10 col-sm-5 col-md-3 col-lg-2">
-                    <img class="skill-logo" src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-512.png" alt="HTML-Logo" />
-                    <P class="skill-name">CSS</P>
-                </div>
-                <div class="skill col-10 col-sm-5 col-md-3 col-lg-2">
-                    <img class="skill-logo" src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/code-programming-javascript-software-develop-command-language-512.png" alt="HTML-Logo" />
-                    <p class="skill-name">JavaScript</p>
-                </div>
-                <div class="skill col-10 col-sm-5 col-md-3 col-lg-2">
-                    <img class="skill-logo" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-512.png" alt="HTML-Logo" />
-                    <p class="skill-name">Python</p>
-                </div>
-                <div class="skill col-10 col-sm-5 col-md-3 col-lg-2">
-                    <img class="skill-logo" src="https://cdn.worldvectorlogo.com/logos/bootstrap-4.svg" alt="HTML-Logo" />
-                    <p class="skill-name">Bootstrap</p>
-                </div>
-                <div class="skill col-10 col-sm-5 col-md-3 col-lg-2">
-                    <img class="skill-logo" src="https://w7.pngwing.com/pngs/275/857/png-transparent-computer-icons-database-approach-icon-orange-data-computer-icons.png" alt="HTML-Logo" />
-                    <p class="skill-name">SQL Queries</p>
-                </div>
-                <div class="skill col-10 col-sm-5 col-md-3 col-lg-2">
-                    <img class="skill-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/640px-Adobe_Photoshop_CC_icon.svg.png" alt="HTML-Logo" />
-                    <p class="skill-name">Photoshop</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="my-works-section" class="my-works-section d-flex flex-column justify-content-center">
-        <div class="container">
-            <div class="row d-flex justify-content-around">
-                <h1 class="my-works-title">My Works <kbd class="p-2"><i class="fas fa-laptop-code"></i></kbd></h1>
-                <div class="work m-5">
-                    <h1>Wikipedia search</h1>
-                    <div class="d-flex justify-content-start flex-wrap">
-                        <p class="tech">HTML</p>
-                        <p class="tech">CSS</p>
-                        <p class="tech">JavaScript</p>
-                        <p class="tech">Bootstrap</p>
-                    </div>
-                    <a href="https://wikk.ccbp.tech/" target="_blank">
-                        <img class="work-img pt-3 pb-3" src="https://res.cloudinary.com/dnffm752p/image/upload/v1671618260/ccbp/Screenshot_from_2022-12-21_15-51-49_yltzsh.png" alt="" />
-                    </a>
-                </div>
-                <div class="work m-5">
-                    <h1>Todo's Application</h1>
-                    <div class="d-flex justify-content-start flex-wrap">
-                        <p class="tech">HTML</p>
-                        <p class="tech">CSS</p>
-                        <p class="tech">JavaScript</p>
-                        <p class="tech">Bootstrap</p>
-                    </div>
-                    <a href="https://todok.ccbp.tech/" target="_blank">
-                        <img class="work-img pt-3 pb-3" src="https://res.cloudinary.com/dnffm752p/image/upload/v1665410739/ccbp/1_ocwlxf.jpg" alt="" />
-                    </a>
-                </div>
-                <div class="work m-5">
-                    <h1>E-commerce Website</h1>
-                    <div class="d-flex justify-content-start flex-wrap">
-                        <p class="tech">HTML</p>
-                        <p class="tech">CSS</p>
-                        <p class="tech">Bootstrap</p>
-                    </div>
-                    <a href="https://ecommercek.ccbp.tech/" target="_blank">
-                        <img class="work-img pt-3 pb-3" src="https://res.cloudinary.com/dnffm752p/image/upload/v1665413438/ccbp/1_o3pjyj.jpg" alt="" />
-                    </a>
-                </div>
-                <div class="work m-5">
-                    <h1>Food Munch Website</h1>
-                    <div class="d-flex justify-content-start flex-wrap">
-                        <p class="tech">HTML</p>
-                        <p class="tech">CSS</p>
-                        <p class="tech">Bootstrap</p>
-                    </div>
-                    <a href="https://foodmunchk.ccbp.tech/" target="_blank">
-                        <img class="work-img pt-3 pb-3" src="https://res.cloudinary.com/dnffm752p/image/upload/v1665413556/ccbp/1_ckoqsv.jpg" alt="" />
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="ping-me-section" class="ping-me-section d-flex flex-column justify-content-center">
-        <div class="container">
-            <div class="row">
-                <div class="d-flex justify-content-around">
-                    <a class="icon" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=suryadasari305@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
-                    <a class="icon" href="https://www.linkedin.com/in/kiran-d-121237238" target="blank"><i class="fab fa-linkedin"></i></a>
-                    <a class="icon" href="#"><i class="fab fa-hackerrank"></i></a>
-                </div>
-                <p class="signature">SRI SIVA SURYA KIRAN DASARI</p>
-            </div>
-        </div>
-    </div>
-</body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
 
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Surya Dasari home"><span class="brand-mark">SD</span><span>surya<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open navigation"><span></span><span></span></button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#work">Selected work</a>
+        <a href="#experience">Experience</a>
+        <a class="nav-contact" href="#contact">Let's connect <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> PYTHON BACKEND ENGINEER <span class="eyebrow-divider">/</span> HYDERABAD, INDIA</p>
+        <h1>Building systems<br>that <span class="gradient-text">work reliably.</span></h1>
+        <p class="hero-intro">I turn complex workflows into maintainable backend systems, practical automation, and data pipelines that help teams work smarter.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
+          <a class="button button-secondary" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-meta">
+          <div><span class="meta-label">FOCUS</span><strong>Backend · Automation · Data</strong></div>
+          <div><span class="meta-label">EXPERIENCE</span><strong>Production systems & workflows</strong></div>
+        </div>
+      </div>
+      <div class="terminal-card" aria-label="Illustrative Python code panel">
+        <div class="terminal-top"><div class="terminal-dots"><i></i><i></i><i></i></div><span>systems.py</span><span class="terminal-status">● running</span></div>
+        <div class="terminal-body">
+          <div class="code-line"><span class="line-no">01</span><span><b class="syntax-purple">class</b> <b class="syntax-yellow">ReliableSystem</b>:</span></div>
+          <div class="code-line"><span class="line-no">02</span><span class="indent"><b class="syntax-purple">def</b> <b class="syntax-blue">build</b>(self, problem):</span></div>
+          <div class="code-line"><span class="line-no">03</span><span class="indent-2">requirements = <b class="syntax-blue">understand</b>(problem)</span></div>
+          <div class="code-line"><span class="line-no">04</span><span class="indent-2">solution = <b class="syntax-blue">design</b>(requirements)</span></div>
+          <div class="code-line"><span class="line-no">05</span><span class="indent-2"><b class="syntax-purple">return</b> <b class="syntax-blue">ship</b>(solution)</span></div>
+          <div class="code-gap"></div>
+          <div class="terminal-output"><span class="output-mark">✓</span> Modular architecture</div>
+          <div class="terminal-output"><span class="output-mark">✓</span> Automated workflows</div>
+          <div class="terminal-output"><span class="output-mark">✓</span> Production-minded delivery</div>
+          <div class="terminal-cursor">▌</div>
+        </div>
+        <div class="terminal-footer"><span>PYTHON</span><span>BUILD · DEBUG · IMPROVE</span></div>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading"><p class="eyebrow">01 / ABOUT</p><h2>Engineering with <span class="gradient-text">ownership.</span></h2></div>
+      <div class="about-grid">
+        <p class="about-lead">I’m a Python engineer who enjoys taking a messy, manual, or fragile process and making it clearer, faster, and easier to maintain.</p>
+        <div class="about-detail">
+          <p>My experience spans Flask applications, REST APIs, SQL-backed workflows, Excel data processing, system migration, and business-process automation. I enjoy understanding the root cause, evaluating trade-offs, and owning a solution from requirements through deployment and support.</p>
+          <p>I value pragmatic architecture: solve the real problem, keep the system understandable, and make the next change easier.</p>
+          <a class="text-link" href="#experience">Explore my experience <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="expertise">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">02 / EXPERTISE</p><h2>Tools I use to <span class="gradient-text">solve problems.</span></h2><p class="section-subtitle">A practical toolkit for building, integrating, and supporting business-critical systems.</p></div>
+        <div class="expertise-grid">
+          <article class="expertise-card reveal"><span class="card-index">01</span><div class="card-icon">⌘</div><h3>Backend engineering</h3><p>Maintainable application logic, API endpoints, validation, authentication, and modular architecture.</p><div class="tag-list"><span>Python</span><span>Flask</span><span>Django / DRF</span><span>REST APIs</span></div></article>
+          <article class="expertise-card reveal"><span class="card-index">02</span><div class="card-icon">▤</div><h3>Data & databases</h3><p>Reliable data movement, structured schemas, SQL workflows, and practical query troubleshooting.</p><div class="tag-list"><span>SQL Server</span><span>MySQL</span><span>Pandas</span><span>ETL</span></div></article>
+          <article class="expertise-card reveal"><span class="card-index">03</span><div class="card-icon">⟳</div><h3>Automation & integration</h3><p>Replacing repetitive manual work with scheduled scripts and connected business workflows.</p><div class="tag-list"><span>Power Automate</span><span>Batch / PowerShell</span><span>Task Scheduler</span><span>APIs</span></div></article>
+          <article class="expertise-card reveal"><span class="card-index">04</span><div class="card-icon">⌁</div><h3>Deployment & reliability</h3><p>Migration, production debugging, logs, backups, and deployment setup across Windows and Linux environments.</p><div class="tag-list"><span>Docker</span><span>Git</span><span>Nginx</span><span>Waitress / Gunicorn</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="work">
+      <div class="section-heading"><p class="eyebrow">03 / SELECTED WORK</p><h2>Problems solved, <span class="gradient-text">systems improved.</span></h2><p class="section-subtitle">Representative case studies from my engineering work. Client-specific code and internal systems are not published here.</p></div>
+      <div class="projects-list">
+        <article class="project-card reveal">
+          <div class="project-number">01</div><div class="project-content"><div class="project-topline"><span class="project-type">APPLICATION MODERNIZATION</span><span class="project-arrow" aria-hidden="true">↗</span></div><h3>From monolith to modular Flask app</h3><p>Reworked a large single-file application into a more structured Flask codebase while preserving existing functionality. Improved user/session management, form handling, access management, and embedded reporting.</p><div class="project-impact"><span>14k+ line legacy file</span><span>Modular structure</span><span>Safer session controls</span></div><div class="tag-list"><span>Python</span><span>Flask</span><span>Flask-WTF</span><span>SQL</span><span>Power BI</span></div></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-number">02</div><div class="project-content"><div class="project-topline"><span class="project-type">DATA AUTOMATION</span><span class="project-arrow" aria-hidden="true">↗</span></div><h3>Multi-file Excel-to-SQL pipeline</h3><p>Built and optimized repeatable workflows to consolidate multi-sheet Excel files, transform data with Python/Pandas, and load results into SQL databases through scheduled automation.</p><div class="project-impact"><span>10–20+ files per run</span><span>3 runs per day</span><span>~20 minutes saved per run</span></div><div class="tag-list"><span>Python</span><span>Pandas</span><span>SQL Server</span><span>Power Automate</span><span>Batch scripting</span></div></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-number">03</div><div class="project-content"><div class="project-topline"><span class="project-type">SYSTEM MIGRATION</span><span class="project-arrow" aria-hidden="true">↗</span></div><h3>Production environment migration</h3><p>Planned and coordinated migration to a new Windows Server environment while maintaining daily business processes. Reconfigured application runtime, database, scheduled tasks, gateways, access, and backup workflows.</p><div class="project-impact"><span>Completed in 35 days</span><span>Daily processes maintained</span><span>Documented UAT setup</span></div><div class="tag-list"><span>Windows Server</span><span>SQL Server</span><span>Nginx</span><span>Waitress</span><span>PowerShell</span></div></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-number">04</div><div class="project-content"><div class="project-topline"><span class="project-type">BUSINESS AUTOMATION</span><span class="project-arrow" aria-hidden="true">↗</span></div><h3>Reporting and communication workflows</h3><p>Maintained scheduled reporting refreshes, improved execution logs for SQL jobs, automated Outlook email generation with attachments, and added file-detection logic for downstream Salesforce uploads.</p><div class="project-impact"><span>150–200+ emails per run</span><span>Execution logging</span><span>Faster troubleshooting</span></div><div class="tag-list"><span>Python</span><span>Outlook</span><span>Power BI</span><span>SQL</span><span>Salesforce</span></div></div>
+        </article>
+      </div>
+      <p class="work-note"><span>↳</span> These are experience-based case studies, not public client repositories. Add links to personal demos or public repositories here when available.</p>
+    </section>
+
+    <section class="section section-soft" id="experience">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">04 / EXPERIENCE</p><h2>Where I’ve <span class="gradient-text">made an impact.</span></h2></div>
+        <div class="timeline">
+          <article class="timeline-item reveal"><div class="timeline-date">NOV 2024 — PRESENT</div><div class="timeline-marker"></div><div class="timeline-body"><div class="timeline-title"><div><h3>Software Engineer — Python</h3><p class="company">SAAP Technologies · Hyderabad, India</p></div><span class="timeline-current">CURRENT</span></div><ul><li>Develop and maintain Flask applications, Python automation, SQL workflows, and reporting integrations.</li><li>Led a 35-day system migration while maintaining daily operational processes.</li><li>Modularized a 14k+ line Flask application and improved authentication/session handling.</li><li>Optimized data consolidation scripts, saving approximately 20 minutes per run.</li><li>Established a UAT environment and improved operational logs, backups, and troubleshooting workflows.</li></ul></div></article>
+          <article class="timeline-item reveal"><div class="timeline-date">FEB 2023 — SEP 2024</div><div class="timeline-marker"></div><div class="timeline-body"><div class="timeline-title"><div><h3>Python Developer</h3><p class="company">M2 SANTHE · Bengaluru, India</p></div></div><ul><li>Built and maintained Flask and Django applications using MongoDB, MySQL, and SQLite.</li><li>Developed canteen management workflows for sales, purchases, and inventory.</li><li>Delivered School ERP modules, role-based access control, and multi-sheet Excel imports into MySQL.</li><li>Integrated a payment gateway into a faculty membership/registration application.</li><li>Coordinated tasks across a small team and supported deployment and troubleshooting.</li></ul></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="approach">
+      <div class="section-heading"><p class="eyebrow">05 / HOW I WORK</p><h2>Clear thinking. <span class="gradient-text">Practical execution.</span></h2></div>
+      <div class="approach-grid">
+        <div class="approach-item"><span>01</span><h3>Understand the system</h3><p>Clarify requirements, trace the workflow, and identify the real source of friction.</p></div>
+        <div class="approach-item"><span>02</span><h3>Choose the right trade-off</h3><p>Balance reliability, maintainability, performance, and delivery constraints.</p></div>
+        <div class="approach-item"><span>03</span><h3>Ship and support</h3><p>Implement, validate, deploy, observe the results, and improve from production feedback.</p></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner">
+        <div><p class="eyebrow">06 / CONTACT</p><h2>Have a problem<br>worth <span class="gradient-text">solving?</span></h2><p class="contact-copy">I’m open to conversations about backend engineering, systems, automation, and meaningful technical challenges.</p></div>
+        <div class="contact-panel"><span class="contact-label">REACH OUT</span><a class="email-link" href="mailto:suryadasari305@gmail.com">suryadasari305@gmail.com <span aria-hidden="true">↗</span></a><button class="copy-button" id="copyEmail" type="button" data-email="suryadasari305@gmail.com">Copy email address</button><div class="contact-links"><a href="https://github.com/unarik" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a><a href="https://unarik.github.io/portfolio/" target="_blank" rel="noreferrer">Portfolio URL <span aria-hidden="true">↗</span></a></div><p class="copy-feedback" id="copyFeedback" aria-live="polite"></p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container"><a class="brand" href="#home"><span class="brand-mark">SD</span><span>surya<span class="brand-dot">.</span></span></a><p>Designed and built with care.</p><a class="back-top" href="#home">BACK TO TOP ↑</a><span class="copyright">© <span id="year"></span> Surya Dasari</span></footer>
+</body>
 </html>
